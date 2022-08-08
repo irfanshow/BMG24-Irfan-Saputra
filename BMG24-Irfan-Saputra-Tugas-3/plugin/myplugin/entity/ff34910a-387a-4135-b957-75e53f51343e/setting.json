@@ -1,0 +1,101 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "asset/Actor/Blue Bow Tie Robot/g2042_decorate_robot.actor",
+  "actorName": "asset/Actor/Blue Bow Tie Robot/g2042_decorate_robot.actor",
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": false,
+  "bodyTurnMax": 0,
+  "bodyTurnMin": 0,
+  "canClick": true,
+  "canHurtMove": true,
+  "canJump": true,
+  "canMove": false,
+  "canPickOnDie": false,
+  "canTurnHead": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 1,
+  "chaseInterval": 10,
+  "checkPartTouchEvent": true,
+  "clickDistance": 4,
+  "collider": {
+    "extent": {
+      "x": 0.6,
+      "y": 1.8,
+      "z": 0.6
+    },
+    "offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "type": "Box"
+  },
+  "collision": true,
+  "damage": 10,
+  "deathHideTime": 20,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": true,
+  "enableMeshNavigate": false,
+  "equipTrays": [],
+  "eyeHeight": 1.62,
+  "followEntityDistanceWhenHasTarget": 1,
+  "followEntityDistanceWhenNotTarget": 1,
+  "gravity": 0.08,
+  "headPic": "@asset/Actor/Blue Bow Tie Robot/g2042_npc_pet.tga",
+  "hideHolder": false,
+  "hideHp": 1,
+  "hideName": false,
+  "homeSize": 20,
+  "hpBarColor": 4294967551.0,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hurtResistantTime": 0,
+  "isAIGoHomePos": true,
+  "isPlayer": false,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 100,
+  "maxVisualAngle": 360,
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.2,
+  "name": "entity_ff34910a-387a-4135-b957-75e53f51343e",
+  "needCheckTouch": true,
+  "nextChaseInterval": 2,
+  "randomPlayDeadActions": [
+    ""
+  ],
+  "reachDistance": 6.5,
+  "setFollowWhenCreate": true,
+  "skillInfoList": [
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 10,
+      "fullName": "myplugin/527e8831-77f3-4c8e-8ca4-57494530160f",
+      "priority": 1
+    }
+  ],
+  "skillInfos": [
+    "myplugin/527e8831-77f3-4c8e-8ca4-57494530160f"
+  ],
+  "stepHeight": 0.6,
+  "swimSpeed": 0.2,
+  "textHeight": 2.3,
+  "unassailable": 0,
+  "undamageable": 0,
+  "waterline": 0
+}

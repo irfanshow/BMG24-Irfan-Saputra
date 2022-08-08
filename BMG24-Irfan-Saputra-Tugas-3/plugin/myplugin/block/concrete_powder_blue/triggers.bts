@@ -1,0 +1,8 @@
+BLOCK_TOUCH {
+	LoopTimes(key = GetBlockFullName(map = $map, pos = $pos), times = 6) {
+		SetPartSize(size = { x = 4, y = 5, z = 6 })
+	}
+}
+
+BLOCK_ON {
+}

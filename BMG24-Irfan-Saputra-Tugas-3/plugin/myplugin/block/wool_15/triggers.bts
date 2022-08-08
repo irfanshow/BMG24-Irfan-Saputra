@@ -1,0 +1,3 @@
+BLOCK_ON {
+	KickOutPlayer(entity = $obj1)
+}

@@ -1,0 +1,3 @@
+GAME_OVER {
+	ShowTip(keepTime = 140, textKey = Concat(p1 = "Selamat!!!", p2 = "Permainan Selesai"), tipType = "4")
+}

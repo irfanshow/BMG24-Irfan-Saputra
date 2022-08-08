@@ -1,0 +1,24 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "attack"
+    },
+    "damage": 20,
+    "name": {
+      "value": "skill_system_91ee7c65-abb7-4a8b-a506-3e0b10c4f517"
+    },
+    "skillIcon": {
+      "asset": "asset/1032118-200.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "954ede895c0d7d238ea8c980140acb94",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

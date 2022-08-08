@@ -1,0 +1,221 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "defaultView": "Back",
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "y": 1,
+        "z": -3.0
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 0,
+        "y": 1,
+        "z": -3.0
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetHeadText",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "action": "42a1beeb-6ca5-4ed9-87fb-38387d1c8533",
+                        "rawval": {
+                          "value": "0539bfce-1c02-4f0f-8a31-c5f36b1aef2c"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "40456f23-0c10-433d-b016-b63566ceae34"
+              },
+              "pos": {
+                "x": 1072,
+                "y": 204
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Concat",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Selamat!!!"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Permainan Selesai"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "42a1beeb-6ca5-4ed9-87fb-38387d1c8533"
+              },
+              "pos": {
+                "x": 1407,
+                "y": 405
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType",
+                        "rawval": "4"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "action": "e8124d36-c0b8-4376-99e7-e7bb76fe3603",
+                        "rawval": {
+                          "value": "41554c3c-a09b-4b15-bfcf-42fea712ca34"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 140
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c21d10c3-8ce5-4dc1-819a-692b6f76b491"
+              },
+              "pos": {
+                "x": 594,
+                "y": 442
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Concat",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Selamat!!!"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Permainan Selesai"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e8124d36-c0b8-4376-99e7-e7bb76fe3603"
+              },
+              "pos": {
+                "x": 1119,
+                "y": 608
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "29c4f176-46e6-4974-bfa6-1e5d1503d234"
+            },
+            "type": "Trigger_GameOver"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c21d10c3-8ce5-4dc1-819a-692b6f76b491"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "2b8b43fb-36c3-4eec-be65-873f6a65e052"
+            }
+          },
+          "type": "Trigger_GameOver"
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "waitGoTime": {
+      "value": 60
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "aa6406d4b36d128dc3f3c553c439713c",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "5753e79c5576fb3f78d0a18a0f747c39",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,11 @@
+ENTITY_DIE {
+	ReviveEntity(entity = $obj1, map = $map, pos = { x = 0, y = 1, z = -3 })
+}
+
+ENTITY_REBIRTH {
+	Damage(damage = 10, entity = $obj1)
+}
+
+ENTITY_ENTER {
+	SetHp(hp = 100)
+}

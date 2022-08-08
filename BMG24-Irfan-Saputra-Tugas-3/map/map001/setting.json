@@ -1,0 +1,64 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/ff34910a-387a-4135-b957-75e53f51343e",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8750137422014660609",
+        "name": "Enemy",
+        "needSync": "true",
+        "position": "x:0.48873901367188 y:1.0660012960434 z:8.1487121582031",
+        "rotation": "x:0 y:174.00077819824 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/14df6623-ca58-4330-a0b3-91916e94b67e",
+        "id": "8750244585979822081",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:1.8650255203247 y:-2.2329998016357 z:2.4258141517639",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:22.4544 y:4.47786 z:26.1613",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Bow Tie Robot/g2042_decorate_robot.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 1,
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 10,
+          "fullName": "myplugin/527e8831-77f3-4c8e-8ca4-57494530160f",
+          "priority": 1
+        }
+      ]
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "avoidCliff": false
+      }
+    },
+    "canClick": true,
+    "canMove": false,
+    "collision": true,
+    "damage": 10,
+    "enableAI": true,
+    "followEntityDistanceWhenHasTarget": 1,
+    "followEntityDistanceWhenNotTarget": 1,
+    "girlactor": {
+      "asset": "asset/Actor/Blue Bow Tie Robot/g2042_decorate_robot.actor"
+    },
+    "headPic": {
+      "asset": "asset/Actor/Blue Bow Tie Robot/g2042_npc_pet.tga"
+    },
+    "maxHp": 100,
+    "name": {
+      "value": "entity_ff34910a-387a-4135-b957-75e53f51343e"
+    },
+    "skill": [
+      "myplugin/527e8831-77f3-4c8e-8ca4-57494530160f"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_StartAI",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "704bf62f-1af6-4a91-8cfd-96a475c148b8"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4c96d4c5-cfd6-46c7-8fbf-de84c3596935"
+              },
+              "pos": {
+                "x": 724,
+                "y": 398
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "704bf62f-1af6-4a91-8cfd-96a475c148b8"
+              },
+              "pos": {
+                "x": 1081,
+                "y": 473
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c39ce440-fb33-4e7f-a722-a62177ad9a3b"
+            },
+            "type": "Trigger_EntityDamage"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "4c96d4c5-cfd6-46c7-8fbf-de84c3596935"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "ccd5e7b9-b0bb-4f0e-89e3-c6aacb02bfdf"
+            }
+          },
+          "type": "Trigger_EntityDamage"
+        }
+      ]
+    },
+    "twist": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "816b9e710a075270dc3e5a3bfd5f8e56",
+      "triggers.bts": "78abed7c47c3ef4940d6d83fe43cf761"
+    },
+    "VERSION": "0.22"
+  }
+}

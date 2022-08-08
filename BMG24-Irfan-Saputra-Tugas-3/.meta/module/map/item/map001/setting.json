@@ -1,0 +1,76 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/ff34910a-387a-4135-b957-75e53f51343e",
+        "id": "8750137422014660609",
+        "name": "Enemy",
+        "position": {
+          "x": 0.48873901367188,
+          "y": 1.0660012960434,
+          "z": 8.1487121582031
+        },
+        "rotation": {
+          "y": 174.00077819824
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/14df6623-ca58-4330-a0b3-91916e94b67e",
+        "id": "8750244585979822081",
+        "position": {
+          "x": 1.8650255203247,
+          "y": -2.2329998016357,
+          "z": 2.4258141517639
+        },
+        "scale": {
+          "x": 22.4544,
+          "y": 4.47786,
+          "z": 26.1613
+        },
+        "size": {
+          "x": 22.454393386841,
+          "y": 4.4778647422791,
+          "z": 26.161277770996
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "cf6c7e3480d0ca09f6f82399d8f20d74"
+    },
+    "VERSION": "0.22"
+  }
+}

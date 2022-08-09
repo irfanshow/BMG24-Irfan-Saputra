@@ -1,10 +1,5 @@
 {
   "data": {
-    "_clientScript": [
-      {
-        "path": "client/client_script"
-      }
-    ],
     "actorModel": {
       "actorName": {
         "asset": ""
@@ -13,14 +8,21 @@
         "asset": ""
       }
     },
+    "AI_attack": {
+      "enable": true
+    },
     "AI_home": {
       "homeSize": 5
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "boundingVolume": {
       "height": 1.7,
       "radius": 0.43,
       "type": "Capsule"
     },
+    "canRevive": true,
     "damage": 20,
     "deadAction": {
       "deathHideTime": {
@@ -28,94 +30,40 @@
       },
       "playDeadAction": "die_front"
     },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
     "isPlayer": true,
     "maxHp": 100,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
     "reviveTime": {
-      "value": 20
+      "value": 40
     },
     "skill": [
-      "myplugin/91ee7c65-abb7-4a8b-a506-3e0b10c4f517"
+      "myplugin/06c6b3bb-789c-47f3-8d40-451eb484f3b1"
     ],
     "triggers": {
       "list": [
         {
           "actions": [
             {
-              "__OBJ_TYPE": "Action_GetContextVar",
+              "__OBJ_TYPE": "Action_GameOver",
               "components": [
                 {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj1"
+                  "__OBJ_TYPE": "Component_Params"
                 }
               ],
               "id": {
-                "value": "4f8b6eb0-31c2-4c47-ba40-a4cc185a5ed8"
+                "value": "6c90d7d9-6d13-4bf3-98fa-70d2e160d043"
               },
               "pos": {
-                "x": 1355,
-                "y": 221
-              },
-              "type": "T_Entity"
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "map"
-                }
-              ],
-              "id": {
-                "value": "97bee727-6568-498b-baa6-163cf676d0ab"
-              },
-              "pos": {
-                "x": 1451,
-                "y": 371
-              },
-              "type": "T_MapObj"
-            },
-            {
-              "__OBJ_TYPE": "Action_GameOverToPlayer",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "7774bc9b-d74d-4e81-810d-6eb8cbba9e57"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "d179a115-42ea-4ecc-adf5-ed3b8029544c"
-              },
-              "pos": {
-                "x": 710,
-                "y": 395
+                "x": 816,
+                "y": 377
               }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj1"
-                }
-              ],
-              "id": {
-                "value": "7774bc9b-d74d-4e81-810d-6eb8cbba9e57"
-              },
-              "pos": {
-                "x": 1090,
-                "y": 480
-              },
-              "type": "T_Entity"
             },
             {
               "__OBJ_TYPE": "Action_SetHeadText",
@@ -126,7 +74,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Entity",
-                        "action": "6a72bc8e-a82e-4bba-92d7-b5f2b36d34fe"
+                        "action": "09852bba-a49c-4650-9400-8d3b90849342"
                       }
                     },
                     {
@@ -144,9 +92,9 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Text",
-                        "action": "1cb6bad6-1ce4-42da-ba81-8275076f6d42",
+                        "action": "9cf13e6a-eccf-4d0a-864d-e0911852c5c4",
                         "rawval": {
-                          "value": "9b957c38-32d1-40ad-a601-50c0b7a0f333"
+                          "value": "4ed10fc7-e7fa-4223-a576-07f86664d09c"
                         }
                       }
                     }
@@ -154,11 +102,11 @@
                 }
               ],
               "id": {
-                "value": "20745c1d-19cb-427a-a09b-dd9fd4e8de2a"
+                "value": "c03a7f45-a90f-4c8d-853b-dedf4b96a5e2"
               },
               "pos": {
-                "x": 723,
-                "y": 654
+                "x": 817,
+                "y": 141
               }
             },
             {
@@ -170,11 +118,11 @@
                 }
               ],
               "id": {
-                "value": "6a72bc8e-a82e-4bba-92d7-b5f2b36d34fe"
+                "value": "09852bba-a49c-4650-9400-8d3b90849342"
               },
               "pos": {
-                "x": 1268,
-                "y": 617
+                "x": 1371,
+                "y": 228
               },
               "type": "T_Entity"
             },
@@ -199,32 +147,17 @@
                 }
               ],
               "id": {
-                "value": "1cb6bad6-1ce4-42da-ba81-8275076f6d42"
+                "value": "9cf13e6a-eccf-4d0a-864d-e0911852c5c4"
               },
               "pos": {
-                "x": 1216,
-                "y": 837
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GameOver",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params"
-                }
-              ],
-              "id": {
-                "value": "c0742965-3fb7-4e5f-8968-1c1780e0ae70"
-              },
-              "pos": {
-                "x": 426,
-                "y": 628
+                "x": 1283,
+                "y": 467
               }
             }
           ],
           "custom_trigger_data": {
             "name": {
-              "value": "68449c30-7ce2-4634-8364-c8eca6822c8e"
+              "value": "2314edf3-9992-44f7-ba16-d8357346e5e2"
             },
             "type": "Trigger_EntityDie"
           },
@@ -234,34 +167,49 @@
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
                   {
-                    "action": "d179a115-42ea-4ecc-adf5-ed3b8029544c"
+                    "action": "c03a7f45-a90f-4c8d-853b-dedf4b96a5e2"
                   },
                   {
-                    "action": "20745c1d-19cb-427a-a09b-dd9fd4e8de2a"
-                  },
-                  {
-                    "action": "c0742965-3fb7-4e5f-8968-1c1780e0ae70"
+                    "action": "6c90d7d9-6d13-4bf3-98fa-70d2e160d043"
                   }
                 ]
               }
             ],
             "id": {
-              "value": "20306766-82fa-4d81-8102-ba0644593f09"
-            },
-            "pos": {
-              "x": 181,
-              "y": 289
+              "value": "d3e920a2-e7a5-49d1-8bf4-fc3f44c43dcf"
             }
           },
           "type": "Trigger_EntityDie"
+        },
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "67d09d55-f808-4bdc-835c-e55626bd1f45"
+            },
+            "type": "Trigger_EntityRebirth"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "560e782d-a5bb-471c-9bcf-0d9eb5685e2a"
+            }
+          },
+          "type": "Trigger_EntityRebirth"
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2e1fb8d31799f895560571103c9f352f",
-      "triggers.bts": "d910b41d52c3702b0557c22d4c546bdb"
+      "setting.json": "572b2285d533d2dbcbe7b50dd0cfbfae",
+      "triggers.bts": "c1b9ab664ec7ef333e55ec929bb24423"
     },
     "VERSION": "0.22"
   }

@@ -1,0 +1,24 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "attack5"
+    },
+    "damage": 0,
+    "name": {
+      "value": "skill_system_06c6b3bb-789c-47f3-8d40-451eb484f3b1"
+    },
+    "skillIcon": {
+      "asset": "asset/1032118-200.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4a64fef74832b1006805d825f63f81f3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

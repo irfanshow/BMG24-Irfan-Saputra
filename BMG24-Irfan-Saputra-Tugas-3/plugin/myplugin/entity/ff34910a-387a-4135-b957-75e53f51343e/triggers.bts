@@ -1,3 +1,0 @@
-ENTITY_DAMAGE {
-	StartAI(entity = $obj1)
-}

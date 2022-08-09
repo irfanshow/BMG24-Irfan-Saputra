@@ -1,0 +1,4 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetHeadText(entity = $obj2, headText = Concat(p1 = "SELAMAT! ", p2 = "PERMAINAN SELESAI!"), x = 2, y = 1)
+	GameOver()
+}

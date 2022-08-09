@@ -1,5 +1,7 @@
 ENTITY_DIE {
-	GameOverToPlayer(entity = $obj1)
 	SetHeadText(entity = $obj1, headText = Concat(p1 = "GAME OVER!", p2 = ""), x = 2, y = 1)
 	GameOver()
+}
+
+ENTITY_REBIRTH {
 }

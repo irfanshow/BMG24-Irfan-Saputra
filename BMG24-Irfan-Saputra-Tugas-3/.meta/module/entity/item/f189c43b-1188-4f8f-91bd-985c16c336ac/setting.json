@@ -1,0 +1,46 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Bow Tie Robot/g2042_decorate_robot.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 1,
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 100,
+          "fullName": "myplugin/742e142f-c0c7-4c29-8a61-6b24f8df3ca3"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 2
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 1
+      }
+    },
+    "collision": true,
+    "damage": 10,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Blue Bow Tie Robot/g2042_decorate_robot.actor"
+    },
+    "maxHp": 100,
+    "name": {
+      "value": "entity_f189c43b-1188-4f8f-91bd-985c16c336ac"
+    },
+    "skill": [
+      "myplugin/742e142f-c0c7-4c29-8a61-6b24f8df3ca3"
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8942ba153b00456a4a72045f65eb4b29",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

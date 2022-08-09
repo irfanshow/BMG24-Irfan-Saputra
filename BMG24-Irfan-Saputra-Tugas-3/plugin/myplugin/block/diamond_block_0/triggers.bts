@@ -1,4 +1,0 @@
-BLOCK_TOUCH {
-	SetHeadText(entity = $obj1, headText = Concat(p1 = "SELAAMAT! ", p2 = "PERMAINAN SELESAI!"), x = 2, y = 1)
-	GameOverToPlayer(entity = $obj1)
-}

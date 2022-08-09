@@ -90,9 +90,9 @@
   "ignoreEmptyStartPos": false,
   "initPos": {
     "map": "map001",
-    "x": 0,
-    "y": 1,
-    "z": -3.0
+    "x": 1.0471415519714,
+    "y": 29.072009124756,
+    "z": 0.067667290568352
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -227,9 +227,9 @@
   "startPos": [
     {
       "map": "map001",
-      "x": 0,
-      "y": 1,
-      "z": -3.0
+      "x": 1.187406539917,
+      "y": 29.072009124756,
+      "z": 0.23945815861225
     }
   ],
   "team": [],
@@ -276,7 +276,7 @@
   "useNewFirstViewer": true,
   "useNewQuadConfig": true,
   "useNewUI": true,
-  "useVoxelTerrain": false,
+  "useVoxelTerrain": true,
   "vars": {
     "__OBJ_TYPE": [],
     "entity": [],
@@ -284,7 +284,7 @@
     "ui": []
   },
   "waitAtInitPos": true,
-  "waitGoTime": 60,
+  "waitGoTime": 20,
   "waitPlayerTime": 0,
   "waitStartTime": 0
 }

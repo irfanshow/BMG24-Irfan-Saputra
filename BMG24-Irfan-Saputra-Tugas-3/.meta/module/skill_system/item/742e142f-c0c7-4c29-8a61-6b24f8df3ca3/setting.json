@@ -1,0 +1,15 @@
+{
+  "data": {
+    "damage": 0,
+    "name": {
+      "value": "skill_system_742e142f-c0c7-4c29-8a61-6b24f8df3ca3"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "822ab89bd063133f6a79c9b79a6ecb02",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

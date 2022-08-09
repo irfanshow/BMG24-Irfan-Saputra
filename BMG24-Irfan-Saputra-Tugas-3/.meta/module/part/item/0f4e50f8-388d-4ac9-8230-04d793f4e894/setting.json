@@ -1,0 +1,36 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "dffd2392-288d-4eca-b02d-907e4adb8a06"
+            },
+            "type": "Trigger_PartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "fbe68819-7c35-4135-8ca3-c63ab0fd4c99"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "4289d662a2d9eff1673cf7726859e2d4"
+    },
+    "VERSION": "0.22"
+  }
+}

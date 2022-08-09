@@ -1,3 +1,0 @@
-BLOCK_ON {
-	Damage(damage = 10, entity = $obj1)
-}

@@ -170,6 +170,46 @@
                 "y": 201
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GameOverToPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9f8b7ccc-f13c-4244-9cf0-0740a1957462"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e1f1f955-8e1e-45cc-85c0-6e22d0cbdc0d"
+              },
+              "pos": {
+                "x": 489,
+                "y": 575
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "9f8b7ccc-f13c-4244-9cf0-0740a1957462"
+              },
+              "pos": {
+                "x": 862,
+                "y": 660
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -187,7 +227,7 @@
                     "action": "ac664f1d-86d6-4a15-bb56-504cab75f01c"
                   },
                   {
-                    "action": "1716d187-0dec-4ec4-8f59-8558e283b5a9"
+                    "action": "e1f1f955-8e1e-45cc-85c0-6e22d0cbdc0d"
                   }
                 ]
               }
@@ -204,7 +244,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "b88b2ae6559062ae749add5f378a68a9",
-      "triggers.bts": "c34d36290584781bf4626b45477d17ae"
+      "triggers.bts": "a3b209af34111010ec96e69c66dd98dc"
     },
     "VERSION": "0.22"
   }

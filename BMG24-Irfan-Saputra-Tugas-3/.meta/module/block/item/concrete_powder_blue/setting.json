@@ -5,6 +5,10 @@
         "value": 0
       }
     },
+    "collisionBoxes": [
+      [],
+      []
+    ],
     "dropSelf": {
       "canDropSelf": false
     },
@@ -202,122 +206,6 @@
           "type": "Trigger_BlockTouch"
         },
         {
-          "actions": [
-            {
-              "__OBJ_TYPE": "Action_Damage",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "81cb6c0b-56a7-4039-a2b2-5e21341d0f4f"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "rawval": 10
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "9f339199-47dc-47e8-ae6e-f58fd43d661e"
-              },
-              "pos": {
-                "x": 832,
-                "y": 378
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj1"
-                }
-              ],
-              "id": {
-                "value": "81cb6c0b-56a7-4039-a2b2-5e21341d0f4f"
-              },
-              "pos": {
-                "x": 1213,
-                "y": 442
-              },
-              "type": "T_Entity"
-            },
-            {
-              "__OBJ_TYPE": "Action_RemoveBlock",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_MapObj",
-                        "action": "925ccdb7-1a6f-46ee-a0b3-5d6eb68a9c27"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_ScenePos",
-                        "action": "d496cead-0bea-44a1-9eae-52bfbf0eadc6"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "7e031bde-4bba-4b93-955b-bc5a0d09ac49"
-              },
-              "pos": {
-                "x": 811,
-                "y": 218
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "map"
-                }
-              ],
-              "id": {
-                "value": "925ccdb7-1a6f-46ee-a0b3-5d6eb68a9c27"
-              },
-              "pos": {
-                "x": 1402,
-                "y": 130
-              },
-              "type": "T_MapObj"
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "pos"
-                }
-              ],
-              "id": {
-                "value": "d496cead-0bea-44a1-9eae-52bfbf0eadc6"
-              },
-              "pos": {
-                "x": 1533,
-                "y": 332
-              },
-              "type": "T_ScenePos"
-            }
-          ],
           "custom_trigger_data": {
             "name": {
               "value": "e69eecf2-3168-4436-8ff5-70099e05c730"
@@ -335,6 +223,10 @@
             ],
             "id": {
               "value": "5f41b504-424f-4894-a303-de831681ba13"
+            },
+            "pos": {
+              "x": 275,
+              "y": 242
             }
           },
           "type": "Trigger_BlockOn"
@@ -344,7 +236,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "81cbdd192185f35b4513be8b31cae794",
+      "setting.json": "b927be1992b034655ef0c5da719aea19",
       "triggers.bts": "0a691e03cf6077813ee814311aede61c"
     },
     "VERSION": "0.22"
